@@ -699,7 +699,7 @@ const update = () => {
 };
 
 // set up for game loop
-// setInterval(update, 1000 / FPS);
+setInterval(update, 1000 / FPS);
 
 //  ***************************************************************
 
