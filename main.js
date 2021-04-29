@@ -7,10 +7,6 @@ elem.id = "canvas"; //..........................................................
 elem.setAttribute("width", bodyw); //........................................................*
 elem.setAttribute("height", bodyh); //.......................................................*
 // ******************************************************************************************
-
-setTimeout(gameStart, 2000);
-
-function gameStart() {
   const cvs = document.getElementById("canvas");
   const ctx = cvs.getContext("2d");
   const FIRE = document.getElementById("fire");
@@ -763,4 +759,3 @@ function gameStart() {
     ship.canShoot = true;
   });
   // mobile ***************************************
-} 
